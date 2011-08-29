@@ -1,4 +1,5 @@
-Some code to simulate the implementation of Shor's algorithm.
+Some code to simulate the implementation of Shor's quantum algorithm for factoring numbers into their prime factors.
+See, for example, http://en.wikipedia.org/wiki/Shor%27s_algorithm
 
 To compile and run, you must have at least Java 5 and ant 1.7.
 To factor a specific number, eg. 143, use
