@@ -1,0 +1,16 @@
+Some code to simulate the implementation of Shor's algorithm.
+
+To compile and run, you must have at least Java 5 and ant 1.7.
+To factor a specific number, eg. 143, use
+
+ant -Dn=143
+
+NOTE: Assumes that n is not a prime power.
+Will print the words "Lucky Guess!" if it randomly chooses a prime number by chance!
+Will print the "Order" values as it finds them.
+
+Uses the jQuantum library (http://jquantum.sourceforge.net/).
+As jQuantum was released under the GNU General Public License, it means that my little program is also under GPL.
+The source code for jQuantum is here:
+http://prdownloads.sourceforge.net/jquantum/jQuantum-2.3.1-src.zip
+
